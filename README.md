@@ -1,5 +1,7 @@
 # @abhisekp/mongoose-to-json
 
+> Forked from @meanie/mongoose-to-json
+
 [![npm version](https://img.shields.io/npm/v/@abhisekp/mongoose-to-json.svg)](https://www.npmjs.com/package/@abhisekp/mongoose-to-json)
 [![node dependencies](https://david-dm.org/abhisekp/mongoose-to-json.svg)](https://david-dm.org/abhisekp/mongoose-to-json)
 [![github issues](https://img.shields.io/github/issues/abhisekp/mongoose-to-json.svg)](https://github.com/abhisekp/mongoose-to-json/issues)
