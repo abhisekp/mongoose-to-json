@@ -1,14 +1,16 @@
-# @meanie/mongoose-to-json
+# @abhisekp/mongoose-to-json
 
-[![npm version](https://img.shields.io/npm/v/@meanie/mongoose-to-json.svg)](https://www.npmjs.com/package/@meanie/mongoose-to-json)
-[![node dependencies](https://david-dm.org/meanie/mongoose-to-json.svg)](https://david-dm.org/meanie/mongoose-to-json)
-[![github issues](https://img.shields.io/github/issues/meanie/mongoose-to-json.svg)](https://github.com/meanie/mongoose-to-json/issues)
-[![codacy](https://img.shields.io/codacy/400e8324a71d4410b9dc3980b5f8cdea.svg)](https://www.codacy.com/app/meanie/mongoose-to-json)
+> Forked from @meanie/mongoose-to-json
+
+[![npm version](https://img.shields.io/npm/v/@abhisekp/mongoose-to-json.svg)](https://www.npmjs.com/package/@abhisekp/mongoose-to-json)
+[![node dependencies](https://david-dm.org/abhisekp/mongoose-to-json.svg)](https://david-dm.org/abhisekp/mongoose-to-json)
+[![github issues](https://img.shields.io/github/issues/abhisekp/mongoose-to-json.svg)](https://github.com/abhisekp/mongoose-to-json/issues)
+<!-- [![codacy](https://img.shields.io/codacy/400e8324a71d4410b9dc3980b5f8cdea.svg)](https://www.codacy.com/app/abhisekp/mongoose-to-json) -->
 
 
 A plugin for Mongoose to normalize JSON output
 
-![Meanie](https://raw.githubusercontent.com/meanie/meanie/master/meanie-logo-full.png)
+![Meanie](https://raw.githubusercontent.com/abhisekp/abhisekp/master/meanie-logo-full.png)
 
 ## Installation
 
@@ -16,10 +18,10 @@ You can install this package using `yarn` or `npm`.
 
 ```shell
 #yarn
-yarn add @meanie/mongoose-to-json
+yarn add @abhisekp/mongoose-to-json
 
 #npm
-npm install @meanie/mongoose-to-json --save
+npm install @abhisekp/mongoose-to-json --save
 ```
 
 ## Usage
@@ -28,7 +30,7 @@ Setup as a global plugin for all Mongoose schema's:
 
 ```js
 const mongoose = require('mongoose');
-const toJson = require('@meanie/mongoose-to-json');
+const toJson = require('@abhisekp/mongoose-to-json');
 
 mongoose.plugin(toJson);
 ```
@@ -39,7 +41,7 @@ Or for a specific (sub) schema:
 
 ```js
 const mongoose = require('mongoose');
-const toJson = require('@meanie/mongoose-to-json');
+const toJson = require('@abhisekp/mongoose-to-json');
 const {Schema} = mongoose;
 
 const MySchema = new Schema({});
@@ -69,7 +71,7 @@ You can also remove private paths from the JSON:
 
 ```js
 const mongoose = require('mongoose');
-const toJson = require('@meanie/mongoose-to-json');
+const toJson = require('@abhisekp/mongoose-to-json');
 const {Schema} = mongoose;
 
 const schema = new Schema({
@@ -96,7 +98,7 @@ This will output:
 
 ## Issues & feature requests
 
-Please report any bugs, issues, suggestions and feature requests in the [@meanie/mongoose-to-json issue tracker](https://github.com/meanie/mongoose-to-json/issues).
+Please report any bugs, issues, suggestions and feature requests in the [@abhisekp/mongoose-to-json issue tracker](https://github.com/abhisekp/mongoose-to-json/issues).
 
 ## Contributing
 
