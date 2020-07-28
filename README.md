@@ -96,7 +96,7 @@ This will output:
 
 ## Issues & feature requests
 
-Please report any bugs, issues, suggestions and feature requests in the [@meanie/mongoose-to-json issue tracker](https://github.com/meanie/mongoose-to-json/issues).
+Please report any bugs, issues, suggestions and feature requests in the [@abhisekp/mongoose-to-json issue tracker](https://github.com/abhisekp/mongoose-to-json/issues).
 
 ## Contributing
 
