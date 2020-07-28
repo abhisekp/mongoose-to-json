@@ -10,7 +10,7 @@
 
 A plugin for Mongoose to normalize JSON output
 
-![Meanie](https://raw.githubusercontent.com/abhisekp/abhisekp/master/meanie-logo-full.png)
+![Meanie](https://raw.githubusercontent.com/meanie/meanie/master/meanie-logo-full.png)
 
 ## Installation
 
